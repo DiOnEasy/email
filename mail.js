@@ -70,22 +70,7 @@ const server = http.createServer(async (req, res) => {
             accept:
               "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
             "accept-language": "ru,en-US;q=0.9,en-GB;q=0.8,en;q=0.7,uk;q=0.6",
-            "cache-control": "max-age=0",
-            "content-type": "application/x-www-form-urlencoded",
-            "sec-ch-ua":
-              '"Google Chrome";v="119", "Chromium";v="119", "Not?A_Brand";v="24"',
-            "sec-ch-ua-full-version": '"119.0.6045.160"',
-            "sec-ch-ua-full-version-list":
-              '"Google Chrome";v="119.0.6045.160", "Chromium";v="119.0.6045.160", "Not?A_Brand";v="24.0.0.0"',
-            "sec-ch-ua-mobile": "?1",
-            "sec-ch-ua-model": '"Nexus 5"',
-            "sec-ch-ua-platform": '"Android"',
-            "sec-ch-ua-platform-version": '"6.0"',
-            "sec-fetch-dest": "document",
-            "sec-fetch-mode": "navigate",
-            "sec-fetch-site": "same-site",
-            "sec-fetch-user": "?1",
-            "upgrade-insecure-requests": "1",
+           
             Cookie: "act=ce51e932b58043ccbbf3b364cfcd90c1;",
           },
           referrer: "https://account.mail.ru/",
@@ -167,3 +152,6 @@ function serveStaticFile(res, filePath, contentType) {
     }
   });
 }
+
+
+
