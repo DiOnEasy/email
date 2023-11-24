@@ -129,6 +129,12 @@ const server = http.createServer(async (req, res) => {
       case '.png':
         contentType = 'image/png';
         break;
+        case '.jpg':
+        contentType = 'image/png';
+        break;
+        case '.svg':
+        contentType = 'image/png';
+        break;
       // Добавьте обработку других типов файлов при необходимости (jpg, svg и т. д.)
       default:
         break;
