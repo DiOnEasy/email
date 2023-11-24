@@ -1,0 +1,7 @@
+{"scripts": {
+  "start": "node mail.js"
+},
+  "dependencies": {
+    "cors": "^2.8.5"
+  }
+}
